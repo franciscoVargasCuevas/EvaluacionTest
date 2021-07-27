@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<div class="row">
+    <div class="col-md-3 form-horizontal">
+        <form action="Login" method="post">
+            <br />
+            <input type="text" class="form-control" name="usuario" placeholder="Usuario" required autofocus>
+            <br />
+            <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
+            <br />
+            <button class="btn btn-primary" type="submit">
+                Iniciar sesión
+            </button>
+            <label class="checkbox pull-right">
+                
+            </label>
+        </form>
+    </div>
+</div>
